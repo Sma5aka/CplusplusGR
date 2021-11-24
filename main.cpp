@@ -16,7 +16,7 @@ int main(int argc, char* argv[]){
 			float y = (float)j / height * 2.0f - 1.0f;
 
 			char pixel = ' ';
-			if(x*x + y*y < 0.5) pixel = '@';
+			if(x*x + y*y < 0.5) pixel = 'M';
 			screen[i + j * width] = pixel;
 		}
 	}
